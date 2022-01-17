@@ -156,8 +156,6 @@ function scoreboard(inningScoreCB, inningCB, numInnings) {
   const scoreByInning = []; 
   let homeScore = 0;
   let awayScore = 0; 
-
-  
   for(let i = 0; i < numInnings; i++){
     const currentInning = inningScoreCB(inningCB); 
     homeScore = homeScore + currentInning.Home; 
